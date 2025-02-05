@@ -32,14 +32,14 @@ export const route: Route = {
     handler,
     description: `Sources
 
-  | Posts | Patreon | Pixiv Fanbox | Gumroad | SubscribeStar | DLsite | Discord | Fantia |
-  | ----- | ------- | ------------ | ------- | ------------- | ------ | ------- | ------ |
-  | posts | patreon | fanbox       | gumroad | subscribestar | dlsite | discord | fantia |
+| Posts | Patreon | Pixiv Fanbox | Gumroad | SubscribeStar | DLsite | Discord | Fantia |
+| ----- | ------- | ------------ | ------- | ------------- | ------ | ------- | ------ |
+| posts | patreon | fanbox       | gumroad | subscribestar | dlsite | discord | fantia |
 
-  :::tip
+::: tip
   When \`posts\` is selected as the value of the parameter **source**, the parameter **id** does not take effect.
   There is an optinal parameter **limit** which controls the number of posts to fetch, default value is 25.
-  :::`,
+:::`,
 };
 
 async function handler(ctx) {
